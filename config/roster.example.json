@@ -1,0 +1,49 @@
+{
+  "schema_version": 2,
+  "test_mode": true,
+  "timezone": "Asia/Kuala_Lumpur",
+  "participants": {
+    "teacher_kelvin": {
+      "name": "Teacher Kelvin",
+      "role": "teacher",
+      "phone": "60120000001",
+      "lid": "100000000000001"
+    },
+    "teacher_sarah": {
+      "name": "Teacher Sarah",
+      "role": "teacher",
+      "phone": "60120000002",
+      "lid": null
+    },
+    "student_alex": {
+      "name": "Alex",
+      "role": "student",
+      "phone": "60120000003",
+      "lid": "100000000000003"
+    },
+    "student_bella": {
+      "name": "Bella",
+      "role": "student",
+      "phone": "60120000004",
+      "lid": null
+    }
+  },
+  "classrooms": {
+    "kelvin_alex_math": {
+      "title": "Secondary Form 5 Mathematics",
+      "teacher": "teacher_kelvin",
+      "student": "student_alex",
+      "monthly_lessons": 4,
+      "duration_minutes": 60,
+      "schedule": "Every Saturday 10:00 - 11:00"
+    },
+    "sarah_bella_english": {
+      "title": "IGCSE English Literature",
+      "teacher": "teacher_sarah",
+      "student": "student_bella",
+      "monthly_lessons": 4,
+      "duration_minutes": 60,
+      "schedule": "Every Sunday 14:00 - 15:00"
+    }
+  }
+}

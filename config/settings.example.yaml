@@ -1,0 +1,24 @@
+timezone: "Asia/Kuala_Lumpur"
+
+classroom:
+  default_monthly_lessons: 4
+  default_duration_minutes: 60
+  currency: "MYR"
+
+rescheduling_policy:
+  try_original_month_first: true
+  allow_carry_forward: true
+  count_toward: "original_month"
+  tuition_adjustment: "unchanged"
+
+languages:
+  supported:
+    - en
+    - zh
+    - ms
+  default: "en"
+
+security:
+  strict_privacy_filter: true
+  redact_sensitive_tokens: true
+  forbid_command_injection: true
